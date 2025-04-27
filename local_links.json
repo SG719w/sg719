@@ -1,0 +1,49 @@
+{
+  "local_links": [
+    {
+      "type": "Docs",
+      "group": "Frontend",
+      "category": "Framework",
+      "projects": "Website",
+      "title": "React",
+      "description": "A complete guide to learn React.js",
+      "url": "https://reactjs.org/"
+    },
+    {
+      "type": "Docs",
+      "group": "Frontend",
+      "category": "UI Components",
+      "projects": "Website",
+      "title": "Material UI",
+      "description": "React components for faster web development",
+      "url": "https://mui.com/"
+    },
+    {
+      "type": "Docs",
+      "group": "Frontend",
+      "category": "Framework",
+      "projects": "Website",
+      "title": "Angular",
+      "description": "Official Angular documentation",
+      "url": "https://angular.io/docs"
+    },
+    {
+      "type": "Docs",
+      "group": "Programming Language",
+      "category": "Language",
+      "projects": "Website",
+      "title": "TypeScript",
+      "description": "Official TypeScript documentation",
+      "url": "https://www.typescriptlang.org/docs/"
+    },
+    {
+      "type": "Docs",
+      "group": "Backend",
+      "category": "Programming Language",
+      "projects": "Website",
+      "title": "Java",
+      "description": "Official Java SE documentation",
+      "url": "https://docs.oracle.com/en/java/javase/"
+    }
+  ]
+}

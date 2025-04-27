@@ -1,0 +1,49 @@
+{
+  "local_files": [
+    {
+      "type": "select",
+      "category": "SQL",
+      "projects": "CRUD",
+      "fileName": "select.sql",
+      "inputs": {
+        "table": "table"
+      },
+      "template": "SELECT * FROM ${input.table};"
+    },
+    {
+      "type": "insert",
+      "category": "SQL",
+      "projects": "CRUD",
+      "fileName": "insert.sql",
+      "inputs": {
+        "table": "table",
+        "columns": "column1, column2",
+        "values": "'value1', 'value2'"
+      },
+      "template": "INSERT INTO ${input.table} (${input.columns}) VALUES (${input.values});"
+    },
+    {
+      "type": "update",
+      "category": "SQL",
+      "projects": "CRUD",
+      "fileName": "update.sql",
+      "inputs": {
+        "table": "table",
+        "set": "column1 = 'new_value'",
+        "condition": "id = 1"
+      },
+      "template": "UPDATE ${input.table} SET ${input.set} WHERE ${input.condition};"
+    },
+    {
+      "type": "delete",
+      "category": "SQL",
+      "projects": "CRUD",
+      "fileName": "delete.sql",
+      "inputs": {
+        "table": "table",
+        "condition": "id = 1"
+      },
+      "template": "DELETE FROM ${input.table} WHERE ${input.condition};"
+    }
+  ]
+}
