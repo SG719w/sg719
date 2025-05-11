@@ -8,7 +8,7 @@
       "inputs": {
         "table": "table"
       },
-      "template": "SELECT * FROM ${input.table};"
+      "template": "U0VMRUNUICogRlJPTSB7aW5wdXQudGFibGV9Ow=="
     },
     {
       "type": "insert",
@@ -20,7 +20,7 @@
         "columns": "column1, column2",
         "values": "'value1', 'value2'"
       },
-      "template": "INSERT INTO ${input.table} (${input.columns}) VALUES (${input.values});"
+      "template": "SU5TRVJUIElOVE8gJHtpbnB1dC50YWJsZX0gKCR7aW5wdXQuY29sdW1uc30pIFZBTFVFUyAoJHtpbnB1dC52YWx1ZXN9KTs="
     },
     {
       "type": "update",
@@ -32,7 +32,7 @@
         "set": "column1 = 'new_value'",
         "condition": "id = 1"
       },
-      "template": "UPDATE ${input.table} SET ${input.set} WHERE ${input.condition};"
+      "template": "VVBEQVRFICR7aW5wdXQudGFibGV9IFNFVCAke2lucHV0LnNldH0gV0hFUkUgJHtpbnB1dC5jb25kaXRpb259Ow=="
     },
     {
       "type": "delete",
@@ -43,7 +43,7 @@
         "table": "table",
         "condition": "id = 1"
       },
-      "template": "DELETE FROM ${input.table} WHERE ${input.condition};"
+      "template": "REVMRVRFIEZST00gJHtpbnB1dC50YWJsZX0gV0hFUkUgJHtpbnB1dC5jb25kaXRpb259Ow=="
     }
   ]
 }
